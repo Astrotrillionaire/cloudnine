@@ -1,6 +1,6 @@
 name = "Lithosphere"
 filename = "lithosphere 1.6 17.06.2025 (1.20.5 - 1.21.5).jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

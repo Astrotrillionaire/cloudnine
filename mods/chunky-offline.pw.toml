@@ -1,6 +1,6 @@
 name = "Chunky Offline (Fabric/Forge/NeoForge/Quilt)"
 filename = "chunky-offline-v1.1.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

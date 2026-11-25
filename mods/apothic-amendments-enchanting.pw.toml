@@ -1,6 +1,6 @@
 name = "Apothic Amendments - Enchanting"
 filename = "apothic_amendments__enchanting-NF1.21.1-0.1.4.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
