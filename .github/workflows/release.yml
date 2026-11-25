@@ -19,6 +19,6 @@ jobs:
           game_endpoint: minecraft
           file_path: cloud-nine-${{ github.ref_name }}.zip
           display_name: Cloud Nine ${{ github.ref_name }}
-          game_versions: "1.21.1"
+          game_versions: "11779,10150"
           release_type: release
           changelog: ${{ github.event.head_commit.message }}
