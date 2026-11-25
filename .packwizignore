@@ -7,3 +7,4 @@ README.md
 config/chunky/
 config/ars_nouveau/search_index/
 config/jamlib/known_suspicious_jars.txt
+shaderpacks/*/
