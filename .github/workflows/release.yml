@@ -1,0 +1,24 @@
+name: Release
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  curseforge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with: { go-version: 'stable' }
+      - run: go install github.com/packwiz/packwiz@latest
+      - run: packwiz refresh --build && packwiz curseforge export -o cloud-nine-${{ github.ref_name }}.zip
+      - uses: itsmeow/curseforge-upload@v3
+        with:
+          token: ${{ secrets.CF_API_TOKEN }}
+          project_id: 1827085
+          game_endpoint: minecraft
+          file_path: cloud-nine-${{ github.ref_name }}.zip
+          display_name: Cloud Nine ${{ github.ref_name }}
+          game_versions: "1.21.1"
+          release_type: release
+          changelog: ${{ github.event.head_commit.message }}
