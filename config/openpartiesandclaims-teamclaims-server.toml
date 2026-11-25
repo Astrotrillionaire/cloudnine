@@ -1,0 +1,81 @@
+[teamClaims]
+	#Whether Team Claims is active on this server.
+	#When false, Team Claims does not start: Open Parties and Claims behaves exactly like the original mod,
+	#/teamclaims is unavailable and no team claim tracking, team configs or team forceloads are managed.
+	#Existing Team Claims data stays untouched on disk, so enabling it again later picks it up.
+	#This is read once when the server starts: changing it needs a server restart.
+	enabled = true
+	#The maximum length (in characters, after removing formatting codes) of a team name given to
+	#/teamclaims create <name> or to the team name argument of the party create command.
+	# Default: 24
+	# Range: 1 ~ 100
+	maxTeamNameLength = 24
+	#How long (in minutes) the forceloaded chunks of a team stay loaded after the last online member of the team
+	#went offline. If a member comes back before the time is up, the forceloads simply stay active.
+	#0 = the forceloads are released right away when the last member goes offline.
+	# Default: 0
+	# Range: 0 ~ 1440
+	forceloadGraceMinutes = 0
+	#Whether players see the claim "welcome" messages (the action bar line shown when entering a claim or
+	#the wilderness) unless they chose otherwise with /teamclaims territorymessages <on|off>.
+	#With Team Claims, walking from one claim of a team to another claim of the same team shows nothing,
+	#as it is one territory. This only applies while OPAC's own claimWelcomeMessages option is enabled.
+	territoryMessagesDefault = true
+	#The largest radius (in chunks around the player's current chunk) of /teamclaims convert <toteam|topersonal> [radius].
+	#0 = only the chunk the player stands in. The largest allowed value, 16, is a square of 33x33 chunks.
+	# Default: 4
+	# Range: 0 ~ 16
+	convertMaxRadius = 4
+	#How many members (the owner included, invited players not) a team needs before it can make team claims
+	#and team forceloads at all. A team with fewer members has a team claim limit and a team forceload limit of 0.
+	#Team claims have their own budget per team: they never count against a member's private claim limit
+	#(OPAC's maxPlayerClaims), and private claims never count against the team's.
+	# Default: 2
+	# Range: 1 ~ 100
+	teamClaimsMinMembers = 2
+	#The team claim limit of a team that has exactly teamClaimsMinMembers members.
+	#The limit of a team is teamClaimsBase + (members - teamClaimsMinMembers) * teamClaimsPerExtraMember.
+	# Default: 500
+	# Range: 0 ~ 1000000
+	teamClaimsBase = 500
+	#How many team claims every member beyond teamClaimsMinMembers adds to the team claim limit.
+	#With the defaults: 2 members = 500, 3 members = 525, 4 members = 550 team claims.
+	# Default: 25
+	# Range: 0 ~ 1000000
+	teamClaimsPerExtraMember = 25
+	#The team forceload limit of a team that has exactly teamClaimsMinMembers members.
+	#The limit of a team is teamForceloadsBase + (members - teamClaimsMinMembers) * teamForceloadsPerExtraMember.
+	#Team forceloads never count against a member's private forceload limit (OPAC's maxPlayerClaimForceloads).
+	# Default: 10
+	# Range: 0 ~ 1000000
+	teamForceloadsBase = 10
+	#How many team forceloads every member beyond teamClaimsMinMembers adds to the team forceload limit.
+	#With the defaults: 2 members = 10, 3 members = 12, 4 members = 14 team forceloads.
+	# Default: 2
+	# Range: 0 ~ 1000000
+	teamForceloadsPerExtraMember = 2
+	#How long (in real hours, also while the server is off) a team may stay above its team claim or team
+	#forceload limit, e.g. after a member left. The team can make no new team claims during that time and its
+	#members are warned. When the time is up, the most recently made team claims are unclaimed (or the most
+	#recent team forceloads turned off) until the team is within its limit again. A team that gets back within
+	#its limit earlier keeps everything. A running countdown keeps its end time when this option is changed.
+	#0 = the excess is removed at the next check (at the latest a minute later).
+	# Default: 168
+	# Range: 0 ~ 8760
+	overLimitGraceHours = 168
+	#Whether a team above its team claim or team forceload limit (e.g. after a member left) loses the excess
+	#when overLimitGraceHours are up. When false, the team keeps everything: no countdown starts, nothing is
+	#unclaimed or turned off by the limit, and there are no warnings or countdowns in chat, in /teamclaims info
+	#or on the party screen. The limits themselves stay: a team above them can make no new team claims or
+	#team forceloads until it is back within them. A countdown that is running when this is set to false is
+	#dropped at the next check; setting it to true again starts a fresh one for a team that is still above
+	#its limit.
+	overLimitEnforcement = true
+	#Whether parties are kept in sync with FTB Teams when that mod is installed, so that players only manage
+	#one team: creating, renaming and disbanding a party, members joining, leaving and being kicked, ownership
+	#transfers, ranks (FTB officer = party admin/moderator) and invitations done in either mod happen in both.
+	#Where the two mods disagree (e.g. when this is first enabled), Open Parties and Claims wins.
+	#Allies, the FTB team color and description, and party chat are not synced.
+	#Without FTB Teams this option does nothing. See /teamclaims ftbsync status.
+	#This is read once when the server starts: changing it needs a server restart.
+	ftbTeamsSync = true

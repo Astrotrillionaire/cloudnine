@@ -1,0 +1,13 @@
+name = "Open Parties and Claims: Team Claims"
+filename = "opac-team-claims-neoforge-1.21.1-v1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "626d4f172dccedc233170d28260d0e8ee133f33e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9566847
+project-id = 1704256

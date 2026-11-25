@@ -1,0 +1,5 @@
+.github/
+README.md
+.gitattributes
+.gitignore
+*.zip

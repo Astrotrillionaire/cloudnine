@@ -1,0 +1,13 @@
+name = "Adam's Ars Plus"
+filename = "adamsarsplus-1.21.1-6.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "47342d8c1008ae5e91b41b1cd1d5c0bc4251a717"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8917630
+project-id = 1011093
