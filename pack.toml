@@ -1,11 +1,11 @@
 name = "Cloud Nine"
-version = "1.1"
+version = "1.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "6c2d6629ed669745e98b7d644fd36e7c137ae325b482e059d2fb48bbd23e0b42"
+hash = "518ff96867550a62c8a9681d02e0cd2a602d404753f533e4cb5f79ea15329972"
 
 [versions]
 minecraft = "1.21.1"

@@ -87,12 +87,20 @@ file = "config/almostunified/unification/materials.json"
 hash = "aeedd65c113ba7e1442e4106f0ca0f95728f4addd39ae90a84f50aff2de7c538"
 
 [[files]]
-file = "config/amendments-client.toml"
+file = "config/amendments-client-1.toml.bak"
 hash = "27e4626a1612f44fa9b090438ddd91db672501a8b5ae041c5f1cb7bfbce2c963"
 
 [[files]]
-file = "config/amendments-common.toml"
+file = "config/amendments-client.toml"
+hash = "dd4fc9279df0c6b4c7c0bc32207b9ea6d37388ee588bf40d783a7826a45a3b9e"
+
+[[files]]
+file = "config/amendments-common-1.toml.bak"
 hash = "792c06ecc6005f26932b34dd59af9e2b19936afcf9a859b6270997b6e364c426"
+
+[[files]]
+file = "config/amendments-common.toml"
+hash = "dba0da890d6f081d1a8545b8ec80b5c60a8a9555c00962a1dbcfc30e70e54a8c"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
@@ -108,11 +116,11 @@ hash = "2150a9e5f1bf77a33843d3a9d290efad799e7aaf338b1f6d0bedfae190864aa8"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "2c4ee295a0f7e76c923ea0890e27350b2da03f84e152a40acaec8cea3fc0329e"
+hash = "9e85517f1d0ea2dcb4dea2cb571fe31031cc56954883fab99e122ae6e6614f97"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "688d1b251ac0e847ec69cc13cfd5d47460c51b84e384eba76b3b88af1708036d"
+hash = "87e06c37f1867096a6a6b24f5e186a3a92bdfbf4e8dd2a63159f501a8a781452"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -1391,6 +1399,10 @@ file = "config/badoptimizations.txt"
 hash = "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
 
 [[files]]
+file = "config/better-advanced-tooltips-client.toml"
+hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
+
+[[files]]
 file = "config/bettercombat/client.json5"
 hash = "2d853633deff976b16e7e973c168134886fe8c06ec5108a077d835db97b5ff18"
 
@@ -1428,7 +1440,7 @@ hash = "50ae1042c321e03ae7acb0acb42c3f416f632f24ea69160d40c5c963db258ae8"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "993c85388a70aa93afb378fee08b7f0e961d1518ae903c1ef976de79c46b4b1c"
+hash = "34df42486930c524bfb59c996b5b2a03d9e9b443a3d323d175205a9a98da15c5"
 
 [[files]]
 file = "config/catalyst-client.toml"
@@ -1472,11 +1484,11 @@ hash = "3a2e328d298b0ef379673beffa566eda2d92b4f1d0e00425573b59f0ea66e646"
 
 [[files]]
 file = "config/cosmeticarmorreworked-client.toml"
-hash = "98abc386a142611a852bb7f7166777b195ecc35f0be48b2287d257efccbe004c"
+hash = "4f9577e9c8002872f5f3382f9892a38cbeefb6e2772b2ca248beab44859068fc"
 
 [[files]]
 file = "config/cosmeticarmorreworked-common.toml"
-hash = "d7922ae120ea9aab0b43eb76ed814ac69b567e8332539e224792be5335a4b650"
+hash = "687143b4844094f166ff875447d139941970649475924d47ce8982e04ef1cf5d"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
@@ -1840,7 +1852,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "c3101ca9963f0451b5e01d34cf0bdf2be29ba6498120ce0fd0aa5a3ce040308b"
+hash = "409406f792e2e46a9b601f9b48df02d13a6a2c838f9967eaf2d38e1bd39d7be3"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -2064,7 +2076,7 @@ hash = "01d1370950239d1a78d2b166652e0ad7dce25d9e89e46565edc3021bec71e206"
 
 [[files]]
 file = "config/rightclickharvest.json5"
-hash = "4933acb18663de7cab3fb632f54b1931bbceac7cda0ef47ef34c5d56c210c63f"
+hash = "6eb5169563472ae96184c94e9f42ff7d76fdba403ed3190ffb308e817ea0a21e"
 
 [[files]]
 file = "config/ritchiesprojectilelib-server.toml"
@@ -2128,7 +2140,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
+hash = "ef3242a314c4311b64b88ce016acea790d42a35f7c81f0a02934841e64efcda1"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -2148,11 +2160,11 @@ hash = "54f01c5f9230393b31082c3a023ebb4ba39df7f626c2de51ebdd72119e1de986"
 
 [[files]]
 file = "config/sophisticatedinventoryinteractions-client.toml"
-hash = "e1240fa4727eb450aa4d3f4553bd47f2d9b1a548ec6e2084bcf92025d6bf6edc"
+hash = "551d941adc8626904c96b3fdecb543d7d9be3d88597070394aefb2f506f44ff9"
 
 [[files]]
 file = "config/sophisticatedinventoryinteractions-common.toml"
-hash = "a9768a551ef5fc36098d37c62e368d17a763f735a8297290fe8c0366d416ddd8"
+hash = "203594b00afdfd052183ca0651e9cffc7aea91986da5f6a7f60bbf5d1f6b7c48"
 
 [[files]]
 file = "config/spark/config.json"
@@ -2244,11 +2256,11 @@ hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
 file = "config/twilightforest-client.toml"
-hash = "22db0a24f98c30f6ddd3a5f4a42c75354992d403bcecfa110b9a2931c53159fc"
+hash = "ea444ad32634a205d0618e864a04d85edcd393dc8083d59c053d738bc48b537c"
 
 [[files]]
 file = "config/twilightforest-common.toml"
-hash = "11cdd50ade194ded67a72c40c95f810ce166760c02d87e9c9deae1ede4ae8f49"
+hash = "0d549a05737b751577752292e1dc8affc5dbe0b5f2592ba08e5de2ee5753b6a7"
 
 [[files]]
 file = "config/valhelsia_structures-client.toml"
@@ -2355,6 +2367,42 @@ file = "config/yo_hooks/yo_hooks-server.json"
 hash = "1b608a982efd542338e19ed47736133b7a300e67cd57284e57b6edcbac00d415"
 
 [[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "d34a8d446620aa82540e33f6bd4737f192f76d98e353b20d7a19c2669367996c"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
 file = "mods/absolute-kinematics.pw.toml"
 hash = "8c2d4c4611c6a9936af4fb747ae945eb53d024a8b584c415f52bdbf4a49e5119"
 metafile = true
@@ -2386,7 +2434,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "8fb2c25b6b4c191760e38387033cef375dcb7cbd643058a9cddccc96e49421fb"
+hash = "744d3eb6a404b2275db0b688ccc302c21d043679f06d4bbb35e34f49b429d4aa"
 metafile = true
 
 [[files]]
@@ -2527,6 +2575,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
 
 [[files]]
@@ -2960,6 +3013,11 @@ hash = "bc0ed43619af3b5e453ccb36412d72aef8d066594946a927155d2fbd440e4b40"
 metafile = true
 
 [[files]]
+file = "mods/iron-chests.pw.toml"
+hash = "89395dd9fcb8ae67889d991207cb95ed7158571c387dde88012853c5fa9ca3fb"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "4b0a995f7cfa19951ba585aa320a1f4ef1a755a38b608adcff2f9ddd156b195b"
 metafile = true
@@ -2987,6 +3045,11 @@ metafile = true
 [[files]]
 file = "mods/krypton-fnp.pw.toml"
 hash = "90ddefcf8c4a77e108d4465c7dc1928e3305cde39bce388b526f404d6cd52d37"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "031e809b62d4d70a66be3e68ab7deeffba17027bb785c83b95c6dcfd4a4e6a8d"
 metafile = true
 
 [[files]]
@@ -3147,6 +3210,11 @@ metafile = true
 [[files]]
 file = "mods/qraftyfied.pw.toml"
 hash = "ef93f5faa4103302030eb8261508fbe9061caa92e1ef29cc495527d82cb1b4dc"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
 
 [[files]]
@@ -3335,4 +3403,4 @@ hash = "7966bb3e8177511ad1437eca7671e6ad1a2e6f7619497d8bfc27b18b6d6f7c3a"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.10 + EuphoriaPatches_1.11.2.txt"
-hash = "29cb1eeb8c397b559c0c67cd1ec8e0cf5f5e2edeef3a26ce8d391c911c8726c7"
+hash = "4fc390b4a14206ef62896286e843e0f3127afbec3dcbdc02f87b09ee5fbb0780"
